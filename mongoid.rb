@@ -1,4 +1,5 @@
 require 'mongoid'
+# open a file in web like open a local file by open-uri
 require 'open-uri'
 
 Mongoid.load!('mongoid.yml', :production)
