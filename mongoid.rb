@@ -9,4 +9,4 @@ class ImageFile
 	field :imagefile, type: Moped::BSON::Binary
 end
 
-# ImageFile.create(imagefile: Moped::BSON::Binary.new(:generic, open('http://img03.taobaocdn.com/imgextra/i3/323476571/T28SPFXX4XXXXXXXXX_!!323476571.jpg','rb') {|io| io.read }))
+ImageFile.create(imagefile: Moped::BSON::Binary.new(:generic, open('http://img03.taobaocdn.com/imgextra/i3/323476571/T28SPFXX4XXXXXXXXX_!!323476571.jpg','rb') {|io| io.read }))
